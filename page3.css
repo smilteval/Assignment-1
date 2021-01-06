@@ -48,7 +48,7 @@ a{
     color:white;
 }
 
-#image{
+.split{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -56,28 +56,28 @@ a{
     width: 100%;
 }
 
-#right{
+.left{
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 img{
     height:50vh;
 }
 
-#left h1{
+.centered h1{
     color: #B2556B;
     font-size: 40px;
     padding-bottom: 20px;
 }
 
-#left p{
+.centerd p{
     font-size: 20px;
 }
 
-#donate{
+.donate{
     background-color: #C89F9C;
     padding: 0.5rem 1rem;
     margin-top: 2em;
