@@ -37,32 +37,8 @@
     background-position: center;
     text-decoration:none;
   }*/
-  header:: after{
-    
-    content:'';
-    background-color: #000;
-    position:center;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    opacity:0.8;
-  }
-  header *{
-    position:relative;
-    z-index:1;
-    
-  }
-  header h1{
-    font-size:60px;
-    margin-action:5px;
-  }
   
-  header p{
-    font-size:30px;
-    margin-action:0px;
-      justify-content: center;
-  }
+  
   
   .footer {
     position: fixed;
