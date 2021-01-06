@@ -61,6 +61,7 @@ a{
     flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
+    
 }
 
 img{
@@ -71,6 +72,9 @@ img{
     color: #B2556B;
     font-size: 40px;
     padding-bottom: 20px;
+    font-family: Georgia, serif;
+  
+ 
 }
 
 .centerd p{
@@ -86,8 +90,30 @@ img{
     font-size:20px;
 }
 
-
-
+.dollars10{
+    background-color: #C89F9C;
+    padding: 0.5rem 1rem;
+    margin-top: 2em;
+    border-radius:5%;
+    width:7em;
+    font-size:20px;
+}
+.dollars50{
+    background-color: #C89F9C;
+    padding: 0.5rem 1rem;
+    margin-top: 2em;
+    border-radius:5%;
+    width:7em;
+    font-size:20px;
+}
+.dollars100{
+    background-color: #C89F9C;
+    padding: 0.5rem 1rem;
+    margin-top: 2em;
+    border-radius:5%;
+    width:7em;
+    font-size:20px;
+}
   .footer {
     position: fixed;
     left: 0;
