@@ -1,2 +1,3 @@
 # Assignment-1
-Website for a charity.
+
+Website asking for donations to narrow down the gender gap in computer science.
