@@ -1,0 +1,88 @@
+
+
+
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    
+    background-color: #fae6f9;
+    font-family: sans-serif;
+    margin:10;
+
+
+    color: rgb(211, 40, 154);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    height:100vh;
+    background-image:url('https://i.pcmag.com/imagery/articles/05alT89V9Qp9dv0iYSN0FV9-3.1579028468.fit_lim.fit_lim.size_956x.jpg');
+    /*background-position: center;*/
+    text-decoration:none;
+  }
+  
+  nav{
+    
+    /* background-color: #991292;
+    font-family: sans-serif;
+    margin:8;
+    width: 1000px;
+    padding: 20px;
+    display:flex;
+    justify-content: flex-end;
+    margin-left:20px;*/
+    
+  }
+  nav a{
+    color: white;
+    margin-left:20px;
+  }
+  
+  /*header{
+    color: rgb(211, 40, 154);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    height:100vh;
+    /*background-image:url('https://i.pcmag.com/imagery/articles/05alT89V9Qp9dv0iYSN0FV9-3.1579028468.fit_lim.fit_lim.size_956x.jpg');
+    background-position: center;
+    text-decoration:none;
+  }*/
+  header:: after{
+    
+    content:'';
+    background-color: #000;
+    position:center;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0.8;
+  }
+  header *{
+    position:relative;
+    z-index:1;
+    
+  }
+  header h1{
+    font-size:60px;
+    margin-action:5px;
+  }
+  
+  header p{
+    font-size:30px;
+    margin-action:0px;
+      justify-content: center;
+  }
+  
+  footer{
+     background-color: #991292;
+    color:white;
+    padding:40px;
+    display:flex;
+    justify-content: center;
+    margin: 0.5px;
+  }
