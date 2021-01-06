@@ -94,3 +94,12 @@ a{
     opacity: 0;
     transition: 0.3s;
 }
+
+i{
+    color:white;
+    text-align:right;
+    position: absolute;
+    font-size: 50px;
+    top:91%;
+    right:5%;
+}
