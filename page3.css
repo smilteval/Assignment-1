@@ -7,7 +7,7 @@
   
   body{
     
-    background-color: #fae6f9;
+    background-color: #eee2df;
     font-family: sans-serif;
     margin:10;
 
@@ -22,6 +22,41 @@
     text-decoration:none;
   }
   
+  .nav{
+    background-color:#C89F9C;
+    display:flex;
+    justify-content:flex-end;
+    position:fixed;
+    width:100%;
+}
+
+.nav-list{
+    display:flex;
+    margin-right:3rem;
+}
+
+.nav-list a{
+    display:block;
+    font-size:1.5rem;
+    padding: 1.5rem;
+}
+.nav-list a:hover{
+    background-color:#B2556B;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+
   .footer {
     position: fixed;
     left: 0;
